@@ -18,7 +18,7 @@ Papel ganha de Pedra e Spoke;
 Tesoura ganha de Papel e Lagarto;
 Lagarto ganha de Papel e Spoke;
 Spoke ganha de Pedra e Tesoura.
-<hr>
+<br>
 <img src="img.jpg">
 </p>
 <hr>
