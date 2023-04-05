@@ -17,8 +17,9 @@ Tesoura:
 Lagarto:
 <br>
 Spoke: 
-<br>
-As regras de qual gesto ganha:
+<br><hr>
+
+<h2>Regras:</h2>
 <br>
 Pedra ganha de Lagarto e Tesoura;
 <br>
