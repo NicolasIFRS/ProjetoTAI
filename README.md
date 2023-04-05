@@ -31,6 +31,6 @@ Lagarto ganha de Papel e Spoke;
 <br>
 Spoke ganha de Pedra e Tesoura.
 <br>
-<img src="img.jpg">
+<img src="imagens/img.jpg">
 </p>
 <hr>
