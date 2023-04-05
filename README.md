@@ -8,15 +8,27 @@ O site não é suporta jogar com outros jogadores simultâneos, mas sim, contra 
 <h2>Como Funciona</h2>
 <p>Para poder iniciar o jogo, é necessário clicar no botão "Permitir camera". Após isso, o usuário deve fazer o sinal desejado com as mãos:
 <br>
+<img src="imagens/img.jpg">
+<br>
 Pedra:
+<br>
+<img src="imagens/pedra.jpg">
 <br>
 Papel:
 <br>
+<img src="imagens/papel.jpg">
+<br>
 Tesoura:
+<br>
+<img src="imagens/tesoura.jpg">
 <br>
 Lagarto:
 <br>
+<img src="imagens/lagarto.jpg">
+<br>
 Spoke: 
+<br>
+<img src="imagens/spoke.jpg">
 <br><hr>
 
 <h2>Regras:</h2>
