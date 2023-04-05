@@ -45,4 +45,3 @@ Spoke ganha de Pedra e Tesoura.
 <br>
 <img src="imagens/img.jpg">
 </p>
-<hr>
