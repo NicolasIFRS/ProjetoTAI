@@ -18,7 +18,7 @@ Papel ganha de Pedra e Spoke;
 Tesoura ganha de Papel e Lagarto;
 Lagarto ganha de Papel e Spoke;
 Spoke ganha de Pedra e Tesoura.
+<hr>
 <img src="img.jpg">
 </p>
-![sheldon-cooper-em-pedra-papel-tesoura-lagarto-spock](https://user-images.githubusercontent.com/104578302/230054951-aee1cfdb-0a4d-4ae0-aded-a454b51815c1.jpg)
 <hr>
