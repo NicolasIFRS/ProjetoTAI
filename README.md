@@ -32,7 +32,6 @@ Spoke:
 <br><hr>
 
 <h2>Regras:</h2>
-<br>
 Pedra ganha de Lagarto e Tesoura;
 <br>
 Papel ganha de Pedra e Spoke;
