@@ -42,6 +42,8 @@
           <img src="exibirImagem();" alt=""></img>
         </figure>
       </script>
+
+      
 <div id="webcam-container"></div>
 <div id="label-container"></div>
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
@@ -98,7 +100,7 @@
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-    </script>
+</script>
     </div>
           <div class="">
 
@@ -132,6 +134,10 @@
         <div class="bot-side">
           <h4 class="">🤖 Pontuação robô: ? pts </h4>
           <h1 class="vazio"></h1>
+
+          <div>
+
+          </div>
 
         </div>
 
