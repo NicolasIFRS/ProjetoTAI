@@ -12,23 +12,23 @@ O site não é suporta jogar com outros jogadores simultâneos, mas sim, contra 
 <br>
 Pedra:
 <br>
-<img src="imagens/pedra.jpg">
+<img src="imagens/pedra.png">
 <br>
 Papel:
 <br>
-<img src="imagens/papel.jpg">
+<img src="imagens/papel.png">
 <br>
 Tesoura:
 <br>
-<img src="imagens/tesoura.jpg">
+<img src="imagens/tesoura.png">
 <br>
 Lagarto:
 <br>
-<img src="imagens/lagarto.jpg">
+<img src="imagens/lagarto.png">
 <br>
 Spoke: 
 <br>
-<img src="imagens/spoke.jpg">
+<img src="imagens/spoke.png">
 <br><hr>
 
 <h2>Regras:</h2>
