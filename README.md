@@ -7,16 +7,27 @@ O site não é suporta jogar com outros jogadores simultâneos, mas sim, contra 
 
 <h2>Como Funciona</h2>
 <p>Para poder iniciar o jogo, é necessário clicar no botão "Permitir camera". Após isso, o usuário deve fazer o sinal desejado com as mãos:
+<br>
 Pedra:
+<br>
 Papel:
+<br>
 Tesoura:
+<br>
 Lagarto:
+<br>
 Spoke: 
+<br>
 As regras de qual gesto ganha:
+<br>
 Pedra ganha de Lagarto e Tesoura;
+<br>
 Papel ganha de Pedra e Spoke;
+<br>
 Tesoura ganha de Papel e Lagarto;
+<br>
 Lagarto ganha de Papel e Spoke;
+<br>
 Spoke ganha de Pedra e Tesoura.
 <br>
 <img src="img.jpg">
