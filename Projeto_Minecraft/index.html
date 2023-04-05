@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="geral">
+    <div>    
+        <h1>Veja o que cada minéo faz colocando ele na frente da câmera!</h1>
+    </div>
+    <div class="container-master">
+    <div class="container">
+<script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.dom.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ml5@latest/dist/ml5.min.js"></script>
+<script type="text/javascript">
+  let classifier;
+  let imageModelURL = 'https://teachablemachine.withgoogle.com/models/fMWY6a3uw/';
+  let video;
+  let label = "Esperando...";
+  function preload() {
+    classifier = ml5.imageClassifier(imageModelURL + 'model.json');
+  }
+  function setup() {
+    createCanvas(640, 540);
+    video = createCapture(VIDEO);
+    video.hide();
+    classifyVideo();
+  }
+  function classifyVideo() {
+    classifier.classify(video, gotResult);
+  }
+  function draw() {
+    background(0);
+    image(video, 0, 0);
+    fill(255);
+    textSize(32);
+    textAlign(CENTER);
+    text(label, width / 2, height - 16);
+    let emoji = "⏱";
+    let mensagem = "";
+        if (label == "diamante"){
+        emoji = "🔵";
+        mensagem = "Um dos minérios mais fortes do jogo.";
+    } else if (label == "ouro"){
+        emoji = "🟡";
+        mensagem = "Pode ser trocado com Piglins.";
+    } else if (label == "redstone"){
+        emoji = "🔴";
+        mensagem = "Usado para fazer circuitos e sistemas automáticos";
+    } else if (label == "ferro"){
+        emoji = "⚪";
+        mensagem = "O minério mais util do jogo.";
+    } else if (label == "esmeralda"){
+        emoji = "🟢";
+        mensagem = "Usado na troca com aldeões.";
+    }
+    textSize(50);
+    text(emoji, width / 1.08, height / 9);
+    textSize(20);
+    text(mensagem, width / 2, height / 1.2); 
+}
+  function gotResult(error, results) {
+    if (error) {
+      console.error(error);
+      return;
+    }
+    console.log(results)
+    label = results[0].label;
+    classifyVideo();
+  }
+</script>
+<script>
+document.getElementByClassName("msn")[0].text = mensagem
+</script>
+</div>
+<div class="container2">
+<img src="img/blocos_treino_TM/diamante.png">
+<img src="img/blocos_treino_TM/ouro.png">
+<img src="img/blocos_treino_TM/redstone.png">
+<img src="img/blocos_treino_TM/ferro.png">
+<img src="img/blocos_treino_TM/esmeralda9.png">
+</div>
+        </div>
+      </div>
+    </body>
+</html>
