@@ -6,7 +6,7 @@ O site não é suporta jogar com outros jogadores simultâneos, mas sim, contra 
 <hr>
 
 <h2>Como Funciona</h2>
-<p>Para poder iniciar o jogo, é necessário clicar no botão "Permitir camera". Após isso, o usuário deve fazer o sinal desejado com as mãos:
+<p>Para poder iniciar o jogo, é necessário clicar no botão "Permitir camera". Após isso, o usuário deve escolher uma das 5 armas e fazer o sinal desejado com as mãos:
 <br>
 <img src="imagens/img.jpg">
 <br>
